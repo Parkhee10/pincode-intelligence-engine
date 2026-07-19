@@ -1,0 +1,18 @@
+{
+  "feature_cols": [
+    "dispatch_delay_hrs",
+    "transit_delay_hrs",
+    "dispatch_to_transit_ratio",
+    "cod_failure_rate_pincode",
+    "return_rate_pincode",
+    "is_festive_season",
+    "category_encoded"
+  ],
+  "category_classes": [
+    "accessories",
+    "apparel",
+    "beauty",
+    "footwear"
+  ],
+  "auc_roc": 0.638
+}
