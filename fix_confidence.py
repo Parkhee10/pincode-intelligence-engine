@@ -1,4 +1,4 @@
-import pandas as pd
+content = '''import pandas as pd
 from pathlib import Path
 from functools import lru_cache
 from datetime import datetime
@@ -46,3 +46,8 @@ def get_confidence_score(
         root_cause=RootCause(result.root_cause.value),
         factors=result.factors,
     )
+'''
+
+with open('backend/api/routes/confidence.py', 'w') as f:
+    f.write(content)
+print("Done")
